@@ -156,7 +156,7 @@ function gameEnd(result){
   ctx.fillText(result, 0, 25);
   ctx.textAlign ='center';
   ctx.fillText('Tweet:Press Space!', screen.width/2, screen.height/2);
-  vat text = result + 'でクリア！！！';
+  var text = result + 'でクリア！！！';
   if(space){
     window.open('http://twitter.com/?status='+ text, '_blank');
     return;
